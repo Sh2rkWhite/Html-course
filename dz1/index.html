@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Шістнадцятична система та RGB</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            line-height: 1.5;
+        }
+        
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        .red { color: red; }
+        .green { color: green; }
+        .blue { color: blue; }
+    </style>
+</head>
+<body>
+
+    <h1>Шістнадцятична система числення та RGB</h1>
+
+    <h2>1. Що таке шістнадцятична система?</h2>
+    <p>Шістнадцятична система (HEX) використовує 16 символів для запису чисел:</p>
+    <ul>
+        <li>Цифри: від <b>0</b> до <b>9</b></li>
+        <li>Букви: <b>A</b> (10), <b>B</b> (11), <b>C</b> (12), <b>D</b> (13), <b>E</b> (14), <b>F</b> (15)</li>
+    </ul>
+    <p>Діапазон значень для одного байта: від <b>00</b> (0) до <b>FF</b> (255).</p>
+
+    <h2>2. Формування коду кольору RGB</h2>
+    <p>Колір записується у форматі: <b>#RRGGBB</b></p>
+    <ul>
+        <li class="red"><b>RR</b> — інтенсивність червоного (00–FF)</li>
+        <li class="green"><b>GG</b> — інтенсивність зеленого (00–FF)</li>
+        <li class="blue"><b>BB</b> — інтенсивність синього (00–FF)</li>
+    </ul>
+
+    <h2>3. Приклади базових кольорів</h2>
+    <table>
+        <tr>
+            <th>Колір</th>
+            <th>HEX-код</th>
+            <th>Склад кольору</th>
+        </tr>
+        <tr>
+            <td>Червоний</td>
+            <td>#FF0000</td>
+            <td>Червоний на максимум, інші 0</td>
+        </tr>
+        <tr>
+            <td>Зелений</td>
+            <td>#00FF00</td>
+            <td>Зелений на максимум, інші 0</td>
+        </tr>
+        <tr>
+            <td>Синій</td>
+            <td>#0000FF</td>
+            <td>Синій на максимум, інші 0</td>
+        </tr>
+        <tr>
+            <td>Білий</td>
+            <td>#FFFFFF</td>
+            <td>Усі кольори на максимум</td>
+        </tr>
+        <tr>
+            <td>Чорний</td>
+            <td>#000000</td>
+            <td>Усі кольори на 0</td>
+        </tr>
+    </table>
+
+</body>
+</html>
