@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Демонстрація align-items у Flexbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Демонстрація CSS-властивості align-items</h1>
+
+  <div class="demo-section">
+    <h2>1. align-items: flex-start (вирівнювання за початком)</h2>
+    <div class="flex-container align-flex-start">
+      <div class="flex-item">Block 1</div>
+      <div class="flex-item" style="padding-top: 30px;">Block 2</div>
+      <div class="flex-item">Block 3</div>
+    </div>
+  </div>
+
+  <div class="demo-section">
+    <h2>2. align-items: flex-end (вирівнювання за кінцем)</h2>
+    <div class="flex-container align-flex-end">
+      <div class="flex-item">Block 1</div>
+      <div class="flex-item" style="padding-bottom: 30px;">Block 2</div>
+      <div class="flex-item">Block 3</div>
+    </div>
+  </div>
+
+  <div class="demo-section">
+    <h2>3. align-items: center (вирівнювання по центру)</h2>
+    <div class="flex-container align-center">
+      <div class="flex-item">Block 1</div>
+      <div class="flex-item" style="height: 90px;">Block 2</div>
+      <div class="flex-item">Block 3</div>
+    </div>
+  </div>
+
+  <div class="demo-section">
+    <h2>4. align-items: stretch (розтягування на всю висоту)</h2>
+    <div class="flex-container align-stretch">
+      <div class="flex-item">Block 1</div>
+      <div class="flex-item">Block 2</div>
+      <div class="flex-item">Block 3</div>
+    </div>
+  </div>
+
+  <div class="demo-section">
+    <h2>5. align-items: baseline (вирівнювання за базовою лінією тексту)</h2>
+    <div class="flex-container align-baseline">
+      <div class="flex-item item-small">Small</div>
+      <div class="flex-item item-large">LARGE</div>
+      <div class="flex-item item-medium">Medium</div>
+    </div>
+  </div>
+
+</body>
+</html>
