@@ -1,0 +1,125 @@
+.container {
+    border: 2px solid salmon;
+    display: flex; /* режим флекс-контейнера */
+}
+.h-150 {
+    height: 150px;
+}
+.h-auto {
+    height: auto !important;
+}
+.item {
+    background-color: tomato;
+    border: 2px solid maroon;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+.j-center {
+    justify-content: center; /* вирівнювання вздовж головної осі */
+}
+.j-between {
+    justify-content: space-between; /*  */
+}
+.j-evenly {
+    justify-content: space-evenly; /*  */
+}
+.j-around {
+    justify-content: space-around; /*  */
+}
+.a-center {
+    align-items: center; /* вирівнювання поперек головної осі */
+}
+.a-stretch {
+    align-items: stretch; /* вирівнювання поперек головної осі */
+}
+.flex-1 {
+    background-color: lime;
+    flex: 1;
+}
+.flex-2 {
+    background-color: orange;
+    flex: 2;
+}
+
+/* Оновлені стилі для картки */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    width: 280px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.card-image {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-headline, .card-subhead, .card-text {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.card-headline {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #222;
+}
+
+.card-subhead {
+    font-size: 0.9rem;
+    color: #666;
+    padding-top: 4px;
+}
+
+.card-text {
+    flex: 1;
+    padding-top: 10px;
+    font-size: 0.875rem;
+    color: #444;
+    line-height: 1.4;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 12px;
+}
+
+.card-button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button-primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.button-primary:hover {
+    background-color: #0056b3;
+}
+
+.button-secondary {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+.button-secondary:hover {
+    background-color: #e0e0e0;
+}
